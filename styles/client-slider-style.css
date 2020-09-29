@@ -1,0 +1,222 @@
+
+.clients_slider {
+	padding: 50px 0 40px 0;
+}
+
+.clients_slider h2 {
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.clients_slider hr {
+	width: 880px;
+	height: 1px;
+	border: none;
+	background-color: #e1e2e2;
+}
+
+.clients_buttons {
+	display: flex;
+	position: relative;
+}
+
+.clients_button:first-child:before {
+	font-family: FontAwesome;
+	font-size: 30px;
+	color: #ffffff;
+
+	content: "\f104";
+	position: absolute;
+	bottom: 4px;
+	left: 34px;
+}
+
+.clients_button:last-child:before {
+	font-family: FontAwesome;
+	font-size: 30px;
+	color: #ffffff;
+
+	content: "\f105";
+	position: absolute;
+	bottom: 4px;
+	left: 94px;
+}
+
+.clients_button {
+	width: 40px;
+	height: 37px;
+	border: none;
+	border-radius: 5px;
+	background-color: #98a3a3;
+	box-shadow: 0 3px 0 #7f8c8c;
+	margin-left: 19px;
+	outline: none;
+	cursor: pointer;
+}
+
+.clients_button:hover {
+	background-color: #e2534b;
+	box-shadow: 0 3px 0 #b0342e;
+}
+
+.line_dots_point {
+	position: relative;
+}
+
+.line_dots {
+	position: absolute;
+	left: 153px;
+	top: -29px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 895px;
+}
+
+.line_dot {
+	width: 65px;
+	height: 20px;
+	
+	cursor: pointer;
+	list-style-type: none;
+	
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.active_line_dot {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: #e1e2e2;
+}
+
+.line_dot:first-child, .line_dot:last-child {
+	width: 50px;
+}
+
+.line_dot:first-child .active_line_dot {
+	margin-right: auto;
+ }
+
+.line_dot:last-child .active_line_dot {
+	margin-left: auto;
+}
+
+.window {
+	margin-top: 42px;
+	padding-bottom: 90px;
+	position: relative;
+	overflow: hidden;
+}
+
+.clients_slides > div, .clients_slides_others > div {
+	width: 170px;
+	height: 90px;
+	background-color: #f8f8f8;
+
+	/*ненадолго центрирование текста ниже*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #7f8c8c;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 700;
+
+	transition: 0.5s ease;
+}
+
+.line_dot > div {
+	pointer-events: none;
+}
+
+/* others position*/
+
+.one {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.two {
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+
+.three {
+	position: absolute;
+	top: 0;
+	left: 400px;
+}
+
+.four {
+	position: absolute;
+	top: 0;
+	left: 600px;
+}
+
+.five {
+	position: absolute;
+	top: 0;
+	left: 800px;
+}
+
+.six {
+	position: absolute;
+	top: 0;
+	left: 1000px;
+}
+
+.seven {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 1200px;
+}
+
+.eight {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 1400px;
+}
+
+.nine {
+	visibility: hidden;
+	position: absolute;
+	top: -120px;
+	left: 1200px;
+}
+
+.ten {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 500px;
+}
+
+.eleven {
+	visibility: hidden;
+	position: absolute;
+	top: -120px;
+	left: -200px;
+}
+
+.twelve {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: -400px;
+}
+
+.thirteen {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: -200px;
+}
+
