@@ -1,3 +1,3 @@
-Just layout example made by me
-No Jquerry used only simple js
+Just layout example made by me <br>
+No Jquerry used only simple js<br>
 Page design by Dimitar Tsankov
